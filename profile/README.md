@@ -37,7 +37,14 @@
 ## 🛠 기술 스택
 ![skill](../assets/skill.jpg)
 
-## 📝 핵심기능
+## 📝 핵심기능 및 목표
+- **Rest API**를 기반으로 한 확장성, 재사용성이 높은 시스템, 개발환경 구축
+- 사용자의 사용감을 고려한 UI 및 기능유도 설계
+- **사용자의 위치에 기반한 단골매장 지정**
+- **각 매장의 재고에 따른 서비스 분리**
+  - 단골매장에 재고가 있으면 **'즉시픽업'**
+  - 단골매장에 재고가 없으면 주문 후, 제품이 도착하면 픽업할 수 있는 **'예약픽업'**
+    
 ![image](https://github.com/user-attachments/assets/4c4f7740-607b-46ce-a868-c053c26ae032)
 
 ## 🚧 문서 및 아키텍쳐
@@ -107,7 +114,7 @@
   </tr>
 </table>
 
-### 단골매장설정 페이지
+### 단골매장 설정페이지
 <table>
   <tr>
     <td><img src="../assets/location_page.jpg" width="250"></td>
@@ -138,7 +145,7 @@
   </tr>
 </table>
 
-### 제품목록, 제품상세 페이지
+### 제품목록, 제품상세페이지
 <table>
   <tr>
     <td><img src="../assets/product_page.jpg" width="250"></td>
@@ -161,29 +168,38 @@
   <tr>
     <td><img src="../assets/detailProdcut_page.jpg" width="250"></td>
     <td>
-      <p><Strong>평점 및 리뷰수</Strong></p>
+      <p><Strong>평점 및 리뷰수를 통해 제품에 대한 평가정보를 고객에게 제공</Strong></p>
       <p><Strong>제품 정보확인 가능</Strong></p>
       <p><Strong>즉시구매 및 장바구니 기능</Strong></p>
       <p>- '즉시구매' : 주문페이지로 바로 이동</p>
       <p>- '장바구니 담기' : 주문페이지로 바로 이동</p>
+      <p><Strong>리뷰</Strong></p>
+      <p>- 작성된 리뷰확인가능</p>
     </td>
   </tr>
 </table>
 
-### 장바구니, 주문 페이지
+### 장바구니, 주문페이지
 <table>
   <tr>
     <td><img src="../assets/basket_page.jpg" width="250"></td>
     <td>
-      <p><Strong>카테고리를 통한 제품분류</Strong></p>
-      <p>- 1차, 2차 카테고리를 통해 해당하는 제품들의 목록을 확인가능함</p>
+      <p><Strong>장바구니 제품 확인가능</Strong></p>
+      <p>- '오늘픽업'의 제품들 : 사용자 단골매장 기준으로 재고가 존재해, 즉시픽업이 가능한 제품목록</p>
+      <p>- '예약픽업'의 제품들 : 사용자 단골매장 기준으로 재고가 없어, 주문 후, 제품이 단골매장에 도착하면 픽업가능한 제품목록</p>
+      <p><Strong>매장까지의 경로표시</Strong></p>
+      <p>- <Strong>'카카오모빌리티 경로 API'</Strong> 이용</p>
+      <p>- 현재 위치에서 단골매장까지의 경로 표시</p>
     </td>
   </tr>
     <tr>
     <td><img src="../assets/order_page.jpg" width="250"></td>
     <td>
-      <p><Strong>카테고리를 통한 제품분류</Strong></p>
-      <p>- 1차, 2차 카테고리를 통해 해당하는 제품들의 목록을 확인가능함</p>
+      <p><Strong>쿠폰 기능</Strong></p>
+      <p><Strong>적립금 사용 기능</Strong></p>
+      <p>- 사용금액 설정가능</p>
+      <p><Strong>`카카오페이 API`</Strong>를 통한 결제</p>
+      <p>- 정상적으로 결제되면 주문완료, 제품 재고 차감</p>
     </td>
   </tr>
 </table>
