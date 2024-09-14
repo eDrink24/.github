@@ -108,6 +108,7 @@
       <p><Strong>전화번호 인증</Strong></p>
       <p>- 주류서비스이므로 성인인증이 이루어져야하지만, 사업자번호가 없어 해당 API를 사용할 수 없어 문자인증으로 대체</p>
       <p>- <Strong>Coolsms API</Strong>를 통해 문자인증을 구현. 인증번호는 랜덤 6자리가 발송됨</p>
+      <p>- 인증번호는 <Strong>Redis</Strong>의 Template에 <Strong>"전화번호":"인증번호"</Strong>로 저장되며, 3분의 유효시간 or 인증이 완료된 경우dp 삭제되도록함</p>
       <p><Strong>주소찾기</Strong></p>
       <p>- <Strong>카카오맵API</Strong>를 통해 주소를 찾은 후, 입력되도록 함</p>
     </td>
@@ -198,8 +199,59 @@
       <p><Strong>쿠폰 기능</Strong></p>
       <p><Strong>적립금 사용 기능</Strong></p>
       <p>- 사용금액 설정가능</p>
-      <p><Strong>`카카오페이 API`</Strong>를 통한 결제</p>
+      <p><Strong>`카카오페이 API`</Strong>를 통한 결제서비스 구현</p>
       <p>- 정상적으로 결제되면 주문완료, 제품 재고 차감</p>
+    </td>
+  </tr>
+</table>
+
+### 주문목록, 주문상세, 리뷰작성페이지
+<table>
+  <tr>
+    <td><img src="../assets/orderList_page.jpg" width="250"></td>
+    <td>
+      <p><Strong>주문내역 확인</Strong></p>
+      <p>- 일자별로 주문한 제품을 확인가능</p>
+      <p>- 픽업완료 후, 리뷰작성가능</p>
+      <p>- 내역클릭 시, 주문상세내역으로 이동</p>
+    </td>
+  </tr>
+  <tr>
+    <td><img src="../assets/orderDetail_page.jpg" width="250"></td>
+    <td>
+      <p><Strong>주문상세내역 확인</Strong></p>
+      <p>- 선택한 일자의 주문상세내역 확인가능</p>
+      <p>- 결제정보 확인가능</p>
+      <p>- <Strong>'카카오모빌리티 경로 API'</Strong> 이용</p>
+      <p>- 현재위치에서 픽업매장까지의 경로확인 가능</p>
+    </td>
+  </tr>
+    <tr>
+    <td><img src="../assets/review_page.jpg" width="250"></td>
+    <td>
+      <p><Strong>3가지 평가지표</Strong></p>
+      <p>- 픽업완료처리 된 경우, 리뷰작성가능</p>
+      <p>- 산도, 당도, 목넘김이란 3가지 지표의 1~5점까지의 평점설정가능</p>
+      <p>- 3가지 점수의 평균을 평점으로 설정</p>
+    </td>
+  </tr>
+</table>
+
+### 점주-발주페이지 ###
+<table>
+  <tr>
+    <td><img src="../assets/admin_page.jpg" width="250"></td>
+    <td>
+      <p>사업자인증번호 입력을 통해 점주로의 계정업데이트 가능 (매장마다 임의의 10자리 생성 후, 입력해둠)</p>
+      <p><Strong>즉시픽업주문내역</Strong></p>
+      <p>- 즉시픽업 주문내역 확인 및 완료처리 가능</p>
+      <p><Strong>예약픽업주문내역</Strong></p>
+      <p>- 예약픽업 주문확인 가능</p>
+      <p>- 주문으로 인해 필요한 재고를 즉시 발주요청 가능하도록 처리</p>
+      <p><Strong>발주신청</Strong></p>
+      <p>- 제품목록을 확인하고 발주신청가능</p>
+      <p><Strong>픽업완료내역 확인</Strong></p>
+      <p><Strong>발주신청내역 확인</Strong></p>
     </td>
   </tr>
 </table>
