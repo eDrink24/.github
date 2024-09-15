@@ -281,7 +281,10 @@
 </table>
 
 ## 📈 트러블 슈팅
+1. XXX문제
+   - [xxx](https://ysstudy.notion.site/Trouble-Shooting-Front-end-5c52987bd15f4e16b706a3a12bbdfcfd?pvs=4)
 
+  
 ## 🔍 평가
 
 ## ⚙ 보완점
