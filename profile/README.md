@@ -27,7 +27,7 @@
 ### 팀구성
 - 4명
 - [@Young5098](https://github.com/Young5097) / Front-end, Back-end, Infra
-- [김기욱] / Front-end, Back-end
+- [@giuk-kim2](https://github.com/giuk-kim2) / Front-end, Back-end
 - [박관호] / Front-end, Back-end
 - [오윤하] / Front-end, UI-UX
 
