@@ -15,8 +15,9 @@
 
 ### URL
 - [eDrink24](https://edrink24.com)
-- 현재는 제공받던 aws계정이 만료되어 접속되지 않음
-- 
+  - 현재는 제공받던 aws계정이 만료되어 접속되지 않음
+- [notion](https://www.notion.so/ysstudy/eDrink24-10102f7b13718062bbeed514d3dbe3dd)
+  
 ### 선정배경
 - 코로나 이후, 집에서 술을 즐기는 홈술 트렌드와 함께 다양한 주류에 대한 수요가 증가함
 - 특히 편의점에서의 주류매출은 매년 증가하는 추세
@@ -280,9 +281,24 @@
   </tr>
 </table>
 
-## 📈 트러블 슈팅
-1. XXX문제
-   - [xxx](https://ysstudy.notion.site/Trouble-Shooting-Front-end-5c52987bd15f4e16b706a3a12bbdfcfd?pvs=4)
+## 📈 트러블 슈팅 / 성능 개선
+### [Trouble Shooting/Front-end] 마커 랜더링 문제 / Young5097
+- [[Trouble Shooting/Front-end] 마커 랜더링 문제](https://ysstudy.notion.site/Trouble-Shooting-Front-end-5c52987bd15f4e16b706a3a12bbdfcfd?pvs=4)
+
+### [Trouble Shooting/Back-end] JPA 엔티티 변수명 자동변환문제 / Young5097
+- [[Trouble Shooting/Back-end] JPA 엔티티 변수명 자동변환문제](https://ysstudy.notion.site/Trouble-Shooting-Back-end-JPA-10202f7b137180b9b4cad2794ae68246?pvs=4)
+
+### [Trouble Shooting/Back-end] 카카오API-회원가입 문제 / Young5097
+- [[Trouble Shooting/Back-end] 카카오API-회원가입 문제](https://ysstudy.notion.site/Trouble-Shooting-Back-end-API-10202f7b137180a98d3cd3484dcaf2cc?pvs=4)
+
+### [Trouble Shooting/Deploy] AWS RDS - MySQL 문제 / Young5097
+- [[Trouble Shooting/Deploy] AWS RDS - MySQL 문제](https://ysstudy.notion.site/Trouble-Shooting-Deploy-AWS-RDS-MySQL-f72a4ff7569148f888521787d39c1748?pvs=4)
+
+### [Trouble Shooting/Deploy] http↔https 송수신문제 / Young5097
+- [[Trouble Shooting/Deploy] http↔https 송수신문제](https://ysstudy.notion.site/Trouble-Shooting-Deploy-http-https-10202f7b137180c197d2e26cadd21a53?pvs=4)
+
+### [Trouble Shooting/Collaboration] 협업 문제
+- [[Trouble Shooting/Collaboration] 협업 문제](https://ysstudy.notion.site/Trouble-Shooting-Collaboration-da1c9513d9734a908795c323d0d10ca5?pvs=4)
 
   
 ## 🔍 평가
