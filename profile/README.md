@@ -36,6 +36,14 @@
 - 2024/07/15 ~ 2024/08/29
 
 ## 🛠 기술 스택
+- _**Git-flow**_ 브랜치 전략 사용
+  - 개발 병렬화 및 운영환경에 대한 영향 최소화 목적
+- IDE
+  - Front-end :  _**VS Code**_
+  - Back-end : _**Intellij**_
+  - DB : _**MySQL Workbench**_
+  - Deploy : _**AWS**_, _**Github Org**_, _**Docker Hub**_
+  
 ![skill](../assets/skill.jpg)
 
 ## 📝 핵심기능 및 목표
