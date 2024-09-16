@@ -6,7 +6,7 @@
 - [기술 스택](#-기술-스택)
 - [문서 및 아키텍쳐](#-문서-및-아키텍쳐)
 - [주요 기능](#-주요-기능)
-- [트러블 슈팅/ 성능 개선](#트러블 슈팅 / 성능 개선)
+- [트러블슈팅/성능개선](#-트러블슈팅/성능개선)
 
 
 
@@ -281,24 +281,40 @@
   </tr>
 </table>
 
-## 📈 트러블 슈팅 / 성능 개선
+## 📈 트러블슈팅/성능개선
 ### [Trouble Shooting/Front-end] 마커 랜더링 문제 / Young5097
 - [[Trouble Shooting/Front-end] 마커 랜더링 문제](https://ysstudy.notion.site/Trouble-Shooting-Front-end-5c52987bd15f4e16b706a3a12bbdfcfd?pvs=4)
+- React, Vanilla JS
+- geolocation API
 
 ### [Trouble Shooting/Back-end] JPA 엔티티 변수명 자동변환문제 / Young5097
 - [[Trouble Shooting/Back-end] JPA 엔티티 변수명 자동변환문제](https://ysstudy.notion.site/Trouble-Shooting-Back-end-JPA-10202f7b137180b9b4cad2794ae68246?pvs=4)
+- SpringFramework, JPA
 
 ### [Trouble Shooting/Back-end] 카카오API-회원가입 문제 / Young5097
 - [[Trouble Shooting/Back-end] 카카오API-회원가입 문제](https://ysstudy.notion.site/Trouble-Shooting-Back-end-API-10202f7b137180a98d3cd3484dcaf2cc?pvs=4)
+- SpringFramework, React
+- Kakao API
 
 ### [Trouble Shooting/Deploy] AWS RDS - MySQL 문제 / Young5097
 - [[Trouble Shooting/Deploy] AWS RDS - MySQL 문제](https://ysstudy.notion.site/Trouble-Shooting-Deploy-AWS-RDS-MySQL-f72a4ff7569148f888521787d39c1748?pvs=4)
+- AWS RDS, MySQL
 
 ### [Trouble Shooting/Deploy] http↔https 송수신문제 / Young5097
 - [[Trouble Shooting/Deploy] http↔https 송수신문제](https://ysstudy.notion.site/Trouble-Shooting-Deploy-http-https-10202f7b137180c197d2e26cadd21a53?pvs=4)
+- AWS ec2-LoadBalancer, AWS S3 Bucket-AWS CloudFront9
 
 ### [Trouble Shooting/Collaboration] 협업 문제
 - [[Trouble Shooting/Collaboration] 협업 문제](https://ysstudy.notion.site/Trouble-Shooting-Collaboration-da1c9513d9734a908795c323d0d10ca5?pvs=4)
+
+### [Performance/Back-end] sms 인증번호 개선 / Young5097
+- [[Performance/Back-end] sms 인증번호 개선](https://ysstudy.notion.site/Performance-Back-end-sms-6250fa81e99f4275b787e5cf868c0790?pvs=4)
+- SpringFramework, Redis
+- CoolSms API
+
+### [Performance/Back-end] Redis-Caching을 통한 API 응답속도 개선 / Young5097
+- [[Performance/Back-end] Redis-Caching을 통한 API 응답속도 개선](https://ysstudy.notion.site/Performance-Back-end-Redis-Caching-API-a15ef757f8e7460c88ee5c615d2b6168?pvs=4)
+- SpringFramework, Redis
 
   
 ## 🔍 평가
