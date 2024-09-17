@@ -29,7 +29,7 @@
 - 4명
 - [@Young5098](https://github.com/Young5097) / Front-end, Back-end, Infra
 - [@giuk-kim2](https://github.com/giuk-kim2) / Front-end, Back-end
-- [@talCSHN] / Front-end, Back-end
+- [@talCSHN](https://github.com/talCSHN) / Front-end, Back-end
 - [오윤하] / Front-end, UI-UX
 
 ### 진행기간
