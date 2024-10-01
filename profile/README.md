@@ -291,6 +291,9 @@
 </table>
 
 ## 📈 트러블슈팅/성능개선
+
+## Trouble Shooting
+
 ### [Trouble Shooting/Front-end] 마커 랜더링 문제 / Young5097
 - [[Trouble Shooting/Front-end] 마커 랜더링 문제](https://ysstudy.notion.site/Trouble-Shooting-Front-end-5c52987bd15f4e16b706a3a12bbdfcfd?pvs=4)
 - React, Vanilla JS
@@ -315,6 +318,11 @@
 
 ### [Trouble Shooting/Collaboration] 협업 문제
 - [[Trouble Shooting/Collaboration] 협업 문제](https://ysstudy.notion.site/Trouble-Shooting-Collaboration-da1c9513d9734a908795c323d0d10ca5?pvs=4)
+
+### [Trouble Shooting/Back-end] Inventory-Order 동시성문제
+- [[Trouble Shooting/Back-end] Inventory-Order 동시성문제](https://ysstudy.notion.site/Trouble-Shooting-Back-end-Inventory-Order-11102f7b1371802cb642f3eb78afdb4c?pvs=4)
+
+## Performance
 
 ### [Performance/Back-end] sms 인증번호 개선 / Young5097
 - [[Performance/Back-end] sms 인증번호 개선](https://ysstudy.notion.site/Performance-Back-end-sms-6250fa81e99f4275b787e5cf868c0790?pvs=4)
@@ -350,7 +358,7 @@
 - 즉 동시성에 대한 고려가 이루어지지 않음
 #### 🛠 고안한 해결방법
 1. 낙관적 락, 비관적 락을 통해 하나의 트랜잭션만 처리하도록 제어 => 
-2. lecture, redlock 라이브러리를 통해, redis를 활용한 메시지 큐잉방식을 통해 동시성 제어 => JVM 리소스를 사용하지 않아, 성능향상 기대가능
+2. lecttuce, redission 라이브러리를 통해, redis를 활용한 메시지 큐잉방식을 통해 동시성 제어 => JVM 리소스를 사용하지 않아, 성능향상 기대가능
 #### 👀 고려할 점
 - 만약 3명이 주문을 동시에 걸고, 1명이 주문에 성공한다면 나머지 2명의 주문을 어떻게 처리해야할까?
   - 알림을 통해 실패할 경우, 장바구니로 redirect?
